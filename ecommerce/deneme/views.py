@@ -5,3 +5,6 @@ from django.shortcuts import render
 def index(request):
     return render(request, "index.html")
 
+def acmestore(request):
+    return render(request, "eticaret/acmestore.html")
+
