@@ -1,0 +1,108 @@
+{% load static %}
+
+<style> 
+
+#menudiv ul li a{ 
+   
+   position: relative;
+   display: block;
+   text-decoration: none;
+   color:black;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+
+#menudiv ul li a .icon{ 
+   
+   position: relative;
+   display: block;
+   line-height:30px;
+   text-align: center;
+
+}
+
+#menudiv ul li a .tittle{ 
+  
+   position: relative;
+   display: block;
+   text-align: start;
+   white-space: nowrap; 
+}
+
+.acmebackground { 
+  
+    background-image: url('../../static/images/acme_menubg.png');
+}
+
+@font-face {
+
+font-family:'JotioneR';
+src: url('../../static/fonts/JotiOne-Regular.ttf');
+
+}
+
+@font-face {
+
+font-family:'Scheherazade-Regular';
+src: url('../../static/fonts/Scheherazade-Regular.ttf');
+
+}
+
+.buyukfont { 
+ 
+    font-family: 'JotioneR';
+    font-size: 20px;
+
+}
+
+.kucukfont { 
+ 
+ font-family: 'Scheherazade-Regular';
+ font-size: 16px;
+
+}
+
+</style>
+
+<div id="menudiv" class="container-fluid d-flex justify-content-center mt-2 border-top border-light"> 
+ 
+    <ul class="nav mt-2"> 
+    
+        <li class="nav-item"> 
+            <a href="#"> 
+                <span class="icon buyukfont">EXPLOSIVES</span>
+                <span class="tittle kucukfont">like dynamite, bullets etc.</span>
+            </a>    
+        </li>
+        |
+        <li class="nav-item"> 
+            <a href="#"> 
+                <span class="icon buyukfont">SOLID TRAPS</span>
+                <span class="tittle kucukfont">like bird seeds, iron bird seeds etc.</span>
+            </a>    
+        </li>
+        |
+        <li class="nav-item"> 
+            <a href="#"> 
+                <span class="icon buyukfont">ACCELERATORS</span>
+                <span class="tittle kucukfont">like rockets, coil springs etc.</span>
+            </a>    
+        </li>
+        |
+        <li class="nav-item"> 
+            <a href="#"> 
+                <span class="icon buyukfont">INSTANT PRODUCTS</span>
+                <span class="tittle kucukfont">like instant girl, feathers etc.</span>
+            </a>    
+        </li>
+        |
+        <li class="nav-item"> 
+            <a href="#"> 
+                <span class="icon buyukfont">LIQUID OR GAS TRAPS</span>
+                <span class="tittle kucukfont">like oil, glue, invisible paint etc.</span>
+            </a>    
+        </li>
+
+    </ul>
+
+</div>

@@ -1,3 +1,9 @@
+.anabg { 
+  
+    background-image: url('../images/acme_anabg.png');
+    background-repeat: repeat;
+}
+
 #ust_menu ul li a{ 
    
     position: relative;
