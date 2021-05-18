@@ -1,7 +1,9 @@
 .anabg { 
   
-    background-image: url('../images/acme_anabg.png');
-    background-repeat: repeat;
+    background-color: #9bffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
 }
 
 #ust_menu ul li a{ 
@@ -47,4 +49,13 @@
  
     font-family: ReenR;
     font-size: 18px;
+}
+
+#footer { 
+ 
+ position: relative;
+ background-image: url('../images/bg_smalimg.png');
+ background-position: right;
+ background-repeat: no-repeat;
+
 }
